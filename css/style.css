@@ -1,0 +1,81 @@
+/* Base Class */
+.p-absolute {
+	position: absolute;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+}
+body {
+	padding: 0 2% 2% 2%;
+}
+h2 {
+	color: #000000;
+	font-size: 18px;
+	text-transform: capitalize;
+	text-align: center;
+	margin: 6px 10px;
+}
+.green-box {
+	width: 100%;
+	height: 100%;
+    background-color: #22B573;
+	position: relative;
+}
+.logo {
+	right: 28px;
+	top: 37px;
+}
+.nav {
+	top: 39px;
+	left: 43px;
+}
+.nav-li a {
+	color: white;
+	font-size: 48px;
+	text-transform: uppercase;
+	margin-left: 55px;
+}
+.nav-li {
+	display: inline-block;
+}
+.white-box {
+	width: 618px;
+	height: 453px;
+	background-color: #fff;
+	top: 248px;
+	left: 0px;
+}
+.white-box p {
+	color: #3CB84D;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 5px;
+	right: 3px;
+	font-weight: 600;
+}
+.greeninwhite {
+	background-color: #006837;
+	width: 300px;
+	height: 300px;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.greeninwhite p {
+	color: #FFFF00;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 38px;
+	text-transform: uppercase;
+}
+footer p {
+	font-size: 14px;
+	color: #FCEE21;
+	position: absolute;
+	bottom: 13px;
+	right: 13px;
+	text-transform: uppercase;
+}
